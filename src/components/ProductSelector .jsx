@@ -36,7 +36,7 @@ const ProductSelector = ({
     <div className="bg-white rounded-3xl p-4 shadow-md mt-8" dir="rtl">
       {/* 🧱 1️⃣ Weight Selector */}
       <h3 className="text-md font-bold text-gray-900 mb-2">
-        ⚖️ اختار وزن المخدة لي يريح رقبتك : {selectedWeight}{" "}
+        ⚖️ اختار وزن المخدة اللي يريح رقبتك : {selectedWeight}{" "}
       </h3>
       <div className="flex gap-4 overflow-x-auto py-3 hide-scrollbar pr-2">
         {weights.map((w) => {
@@ -103,7 +103,7 @@ const ProductSelector = ({
       <div className="border-b border-gray-200 my-3"></div>
       {/* 📦 2️⃣ Pack Selector */}
       <h3 className="text-md font-bold mb-2">
-        🔢 اختار الكمية لي تحب عليها : {selectedPack}
+        🔢 اختار الكمية اللي تحب عليها : {selectedPack}
       </h3>{" "}
       <div className="flex gap-4 overflow-x-auto py-3 hide-scrollbar pr-2">
         {[...Array(9)].map((_, i) => {
