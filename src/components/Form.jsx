@@ -111,7 +111,7 @@ export default function CheckoutForm({
               value={formData.fullName}
               onChange={handleChange}
               required
-              placeholder="مثال: محمد علي"
+              placeholder=" محمد علي"
               className="w-full rounded-md border border-gray-300 pr-10 pl-3 py-2 focus:border-green-600 focus:ring-green-600 sm:text-sm text-right"
             />
           </div>
@@ -165,7 +165,7 @@ export default function CheckoutForm({
                 value={formData.address}
                 onChange={handleChange}
                 required
-                placeholder="مثال: شارع الحبيب بورقيبة، باب بحر"
+                placeholder=" شارع الحبيب بورقيبة، باب بحر"
                 className="w-full rounded-md border border-gray-300 pr-10 pl-3 py-2 focus:border-green-600 focus:ring-green-600 sm:text-sm text-right"
               />
             </div>

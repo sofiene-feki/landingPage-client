@@ -1,8 +1,8 @@
 import React from "react";
 import confort from "../assets/confort.png";
-import forme from "../assets/forme.PNG";
-import chemical from "../assets/chemical.PNG";
-import machine from "../assets/machine.PNG";
+import forme from "../assets/forme.png";
+import chemical from "../assets/chemical.png";
+import machine from "../assets/machine.png";
 
 const features = [
   {
