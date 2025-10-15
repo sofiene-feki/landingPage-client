@@ -17,6 +17,7 @@ import FeatureSection from "../components/FeatureSection";
 import { IoIosLeaf } from "react-icons/io";
 import CheckoutForm from "../components/Form";
 import { createOrder } from "../functions/order";
+import { Link } from "react-router-dom";
 
 const products = {
   "600g": {
@@ -354,7 +355,10 @@ export default function Home() {
               <p>
                 WhatsApp: <span className="font-medium">+216 96 67 01 02</span>
               </p>
-              <p className="mt-2">Adresse: Tunis, Tunisie</p>
+              <Link to="orders">
+                {" "}
+                <p className="mt-2">Adresse: Tunis, Tunisie</p>
+              </Link>
             </div>
           </div>
         </section>
