@@ -5,14 +5,10 @@ import {
   StarIcon,
   SparklesIcon,
 } from "@heroicons/react/24/solid";
-import side from "../assets/side.jpg";
-import stitch from "../assets/stitch.jpg";
-import room from "../assets/room.jpg";
 import o1 from "../assets/1.jpg";
-import o2 from "../assets/2.jpg";
+import o2 from "../assets/2.png";
 import o3 from "../assets/3.jpg";
-import o4 from "../assets/4.jpg";
-import o5 from "../assets/5.jpg";
+import o4 from "../assets/4.png";
 
 import logo from "../assets/logo.png";
 import MediaGallery from "../components/MediaGallery ";
@@ -254,7 +250,7 @@ export default function Home() {
             </div>
 
             <MediaGallery
-              mainImages={[o1, o2, o3, o4, o5, side, stitch, room]}
+              mainImages={[o1, o2, o3, o4]}
               videoUrl="/videos/oreiller-demo.mp4"
             />
           </div>
