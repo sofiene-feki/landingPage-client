@@ -105,13 +105,13 @@ const MediaGallery = ({ mainImages, videoUrl }) => {
                 />
               </div>
             ))}
-            {videoUrl && (
+            {/* {videoUrl && (
               <div className="px-1">
                 <div className="h-20 w-full rounded-lg border border-slate-200 bg-black flex items-center justify-center text-white text-xs font-semibold">
                   🎬 Vidéo
                 </div>
               </div>
-            )}
+            )} */}
           </Slider>
         </div>
       </div>
